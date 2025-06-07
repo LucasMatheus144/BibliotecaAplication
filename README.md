@@ -1,4 +1,4 @@
-# Biblioteca API - Trabalho Final falvojr
+#  Biblioteca API - Trabalho Final falvojr
 
 Este repositório documenta uma jornada prática por **Clean Code**, **Design Patterns** e estrutura **DDD**, desenvolvido em c#. Sistema desenvolvido para o trabalho final.
 
@@ -33,3 +33,17 @@ dotnet run
 # Caso ocorram erros de compilação, verifique se os pacotes NuGet estão corretos
 # ou se a versão do SDK do .NET instalada na máquina é compatível com o projeto
 ```
+
+## ⚠ Possiveis Erros
+
+* Se houver falhas durante o build , verifique:
+* Se os pacotes NuGet foram instalados corretamente.
+* Se a versão do SDK do .NET instalada é compatível a 9.0
+* Se a string de conexão está corretamente apontando para o banco PostgreSQL ativo.
+
+
+### Dicas 
+
+* Voce precisa configurar a string de conection com o banco de dados, ficando dentro da soliução ConsoleApp.INFRA > Config > appsettins.json
+* Toda a estrutuda do banco de dados que voce deve ter, está no ConsoleApp.INFRA > DataBaseSchema.sql
+
