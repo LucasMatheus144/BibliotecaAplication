@@ -1,4 +1,4 @@
-#  Biblioteca API - Trabalho Final falvojr
+#  📚 Biblioteca API - Trabalho Final falvojr
 
 Este repositório documenta uma jornada prática por **Clean Code**, **Design Patterns** e estrutura **DDD**, desenvolvido em c#. Sistema desenvolvido para o trabalho final.
 
