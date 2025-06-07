@@ -9,17 +9,27 @@ Este repositório documenta uma jornada prática por **Clean Code**, **Design Pa
 > link para dowload da versão mais recente https://dotnet.microsoft.com/pt-br/download/dotnet/9.0
 
 ```bash
-# Clone o repositório
+# 1. Clone o repositório
 git clone https://github.com/LucasMatheus144/BibliotecaAplication.git
 
-# Navegue pelos projetos
-Acesse o visual stduio, acesse o arquivo TrabalhoFinal.sln podendo visualizar as soluções deenvolvidas
-Biblioteca.API
-ConsoleApp.DOMAIN
-ConsoleApp.INFRA
+# 2. Instale os pacotes NuGet necessários
+dotnet add package NHibernate
+dotnet add package Npgsql
 
-# Baixar os pacotes nuget em sua maquina
+# 3. Navegue até o projeto
+# Abra a solução no Visual Studio (TrabalhoFinal.sln)
+# ou navegue até a pasta via terminal:
 
-1 - dotnet add package NHibernate 
-2 - dotnet add package Npgsql
+cd C:\Users\[SEU_USUARIO]\[CAMINHO_ONDE_SALVOU]\BibliotecaAPI\Biblioteca.API
+
+# 4. Valide a compilação do projeto
+dotnet build
+
+# 5. Execute a aplicação
+# Se não houver erros de compilação, a API estará pronta para uso:
+dotnet run
+
+# Observação:
+# Caso ocorram erros de compilação, verifique se os pacotes NuGet estão corretos
+# ou se a versão do SDK do .NET instalada na máquina é compatível com o projeto
 ```
