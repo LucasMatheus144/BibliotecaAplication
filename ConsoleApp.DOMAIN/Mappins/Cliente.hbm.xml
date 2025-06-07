@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping
+	xmlns="urn:nhibernate-mapping-2.2"
+	namespace="ConsoleApp.DOMAIN.Entites"
+	assembly="ConsoleApp.DOMAIN">
+
+	<class name="Cliente" lazy="false" table="cliente">
+		<id name="Id" column="id">
+			<generator class="sequence">
+				<param name="sequence">cliente_seq</param>
+			</generator>
+		</id>
+
+		<property name="Nome" column="nome" not-null="true" length="20" />
+
+		<property name="Email" column="email" length="50" />
+
+		<property name="Cpf" column="cpf" not-null="true" unique="true" length="11" access="property" />
+
+		<property name="DataNascimento" column="d_datanascimento" not-null="false" />
+
+		<property name="UltimaAlteracao" column="d_ultimaalteracao" not-null="true" />
+
+	</class>
+
+</hibernate-mapping>

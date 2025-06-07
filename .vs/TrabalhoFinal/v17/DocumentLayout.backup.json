@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F579B5-05F8-4576-959D-8D95706B4B64}|Biblioteca.API\\Biblioteca.API.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\biblioteca.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F579B5-05F8-4576-959D-8D95706B4B64}|Biblioteca.API\\Biblioteca.API.csproj|solutionrelative:biblioteca.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.domain\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|solutionrelative:consoleapp.domain\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.domain\\entites\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|solutionrelative:consoleapp.domain\\entites\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.domain\\services\\validatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5000A561-7CE1-4234-8B55-16C1A5E75E51}|ConsoleApp.DOMAIN\\ConsoleApp.DOMAIN.csproj|solutionrelative:consoleapp.domain\\services\\validatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 683,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Biblioteca.API\\Program.cs",
+              "RelativeDocumentMoniker": "Biblioteca.API\\Program.cs",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Biblioteca.API\\Program.cs",
+              "RelativeToolTip": "Biblioteca.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T03:05:34.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
+              "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
+              "RelativeToolTip": "ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T03:04:03.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidatorService.cs",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
+              "RelativeToolTip": "ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwFwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:58:53.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
+              "RelativeToolTip": "ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T02:57:09.908Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

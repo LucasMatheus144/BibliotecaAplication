@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="ConsoleApp.DOMAIN"
+                   namespace="ConsoleApp.DOMAIN.Entites">
+
+	<class name="RegistroEmprestimo" table="emprestimo">
+
+		<id name="Id" column="id">
+			<generator class="sequence">
+				<param name="sequence">emprestimo_seq</param>
+			</generator>
+		</id>
+
+		<many-to-one name="Cliente" column="id_cliente" class="ConsoleApp.DOMAIN.Entites.Cliente" not-null="true" />
+
+		<many-to-one name="Livro" column="id_livro" class="ConsoleApp.DOMAIN.Entites.Livro" not-null="true" />
+
+		<property name="DataRetirada" column="d_dataretirada" not-null="true" />
+
+		<property name="DataDevolucao" column="d_datadevolucao" not-null="true" />
+
+		<property name="Devolvido" column="devolvido" not-null="true" />
+
+	</class>
+</hibernate-mapping>
