@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script  type="text/javascript" src="assets/js/index.js" ></script>
+</head>
+<body>
+
+    <nav class="lateral">
+        <div class="imagem">
+            <img src="assets/images/pontinhos.png" alt="logo">
+        </div>
+        <div class="conteudo">
+            <h3 class="subtitulo">biblioteca</h3>
+            <div class="opcoes">
+                <ul>
+                    <li class="menu-dropdown">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Cadastro</span>
+                        </div>
+                        <ul class="submenu">
+                            <li><i class="fa-solid fa-book"></i> Livros</li>
+                            <li><i class="fa-solid fa-user"></i> Clientes</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="opcoes">
+                <ul>
+                    <li class="menu-dropdown">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-landmark"></i>
+                            <span>Emprestimo</span>
+                        </div>
+                        <ul class="submenu">
+                            <li><i class="fa-solid fa-address-card"></i> Registros</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="topside">
+            <div class="subimagem">
+                <img src="assets/images/sem_fundo.png" alt="">
+            </div>
+
+            <div class="botoes">
+                <a href="#">
+                    <i class="fa-regular fa-comment icon"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping icon"></i>
+                </a>
+            </div>
+        </header>
+
+        <div class="acoes">
+            <div class="search">
+                <input type="text" name="search" id="">
+            </div>
+            <div class="cadastro">
+                <button onclick="AbrirCadastro()">Cadastro</button>
+            </div>
+        </div>
+
+        <div class="picture">
+            <img src="assets/images/fundo2.png" alt="">
+        </div>
+
+        
+        
+        <div class="final">
+            
+            <div class="titulo">
+                <h2>Recorde Biblioteca</h2>
+            </div>
+
+            <div class="grid">
+
+                <!-- carregar via js-->
+                <!-- <div class="card">
+                    <div>
+                        <img src="assets/images/livro.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="nome" >
+                            <label class="namelivro" name="name">LifKRY novela</label>
+                        </div>
+                        <label class="descricao" name="descricao">É o que descobre A. J. Fikry, dono de uma pequena livraria em Alice Island</label>
+                    </div>
+                </div> -->
+
+
+            </div>
+
+            
+        </div>
+
+    </main>
+    
+    <div class="modal close" id="abrirform">
+        <form action="post" onsubmit="submitForm(event)">
+            <i class="fa-solid fa-xmark" onclick="FecharCadastro()"></i>
+
+            <input type="number" style="display: none;">
+
+            <label for="nome">Nome: </label>
+            <input type="text" name="namelivro" required maxlength="30" minlength="3">
+
+            <label for="descricao">Descricao: </label>
+            <input type="text" name="descricaoLivro" required maxlength="50" minlength="3">
+            
+            <button type="submit" class="enviar">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+</html>

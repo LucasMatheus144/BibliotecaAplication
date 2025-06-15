@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --white-100: #FDFDFD;
+    --laranja-100: #FCE4CF; 
+    --laranja-300: #F7CEB8;
+    --cinza-100:#686868;
+    
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: var(--white-100);
+}
+
+.lateral{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    width: 220px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+    padding: 0 0 0 20px;
+    overflow-y: auto;
+    background-color: var(--white-100);
+
+}
+
+.lateral .imagem img {
+    max-width: 90px;
+}
+
+.lateral .subtitulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.lateral .opcoes ul {
+    list-style: none;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-dropdown {
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-dropdown .submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.menu-dropdown.active .submenu {
+    display: block;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.menu-dropdown .submenu li {
+    position: relative;
+    left: 20px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+
+.menu-title:hover {
+    background-color: var(--laranja-300);
+    width: 80%;
+}
+.menu-dropdown.active .menu-title {
+    background-color: var(--laranja-100);
+    width: 80%;
+
+}
+
+.menu-dropdown .submenu li:hover {
+    background-color: var(--laranja-300); 
+    width: 80%;
+
+}
+
+
+.container {
+    margin-left: 220px; 
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.topside{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 40px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.subimagem{
+    display: flex;
+    align-items: center;
+    width: 65px;
+    padding: 8px;
+}
+
+.botoes{
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    right: 30px;
+    gap: 20px;
+}
+
+.botoes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.acoes{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    align-items: center;
+    gap: 10px;
+}
+
+.search{
+    display: flex;
+    flex: 1;
+    width: 40%;
+}
+
+.search input{
+    border-radius: 10px;
+    height: 35px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--laranja-100);
+    color: black;
+}
+
+
+.cadastro button{
+    padding:6px;
+    color: black;
+    background-color: var(--laranja-100);
+    border: 2px solid var(--laranja-100);
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cadastro button:hover {
+    background-color: var(--white-100); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.picture img {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: auto; 
+    max-height: 400px; 
+    object-fit: fill; 
+}
+
+.final{
+    display: flex;
+    position: relative;
+    top: 10px;
+    padding: 20px;
+    width: 100%;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.titulo {
+    min-width: 200px; 
+}
+
+.titulo h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 0.1fr); 
+    gap: 100px;
+    flex: 1;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 120px;
+    max-height: 220px;
+}
+
+.card img{
+    width: 110px;
+}
+
+.card .info .namelivro{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card .info .descricao {
+    font-size: 0.7rem;
+    color: var(--cinza-100);
+    margin-top: 4px;
+    display: block;
+}
+
+.modal{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.60);  
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.modal form {
+    display: grid;
+    height: 120px;
+    padding: 24px;
+    background-color: white;
+    height: fit-content;
+    border-radius: 16px;
+    gap: 5px;
+}
+
+.modal form i{
+    display: flex;
+    justify-content: end;
+}
+
+.modal.close {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.enviar{
+    color: black;
+    background-color: #ffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.enviar:hover{
+    border: 2px solid var(--white-100);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
