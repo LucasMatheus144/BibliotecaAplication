@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.infra\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|solutionrelative:consoleapp.infra\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.infra\\config\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|solutionrelative:consoleapp.infra\\config\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\consoleapp.infra\\hibernate.cfg.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8547DEEA-5063-4B30-9E7D-4267B0B43A63}|ConsoleApp.INFRA\\ConsoleApp.INFRA.csproj|solutionrelative:consoleapp.infra\\hibernate.cfg.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1F579B5-05F8-4576-959D-8D95706B4B64}|Biblioteca.API\\Biblioteca.API.csproj|c:\\users\\lumet\\source\\repos\\bibliotecaapi\\bibliotecaapi\\biblioteca.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 683,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,8 +53,38 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hibernate.cfg.xml",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.INFRA\\hibernate.cfg.xml",
+              "RelativeDocumentMoniker": "ConsoleApp.INFRA\\hibernate.cfg.xml",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.INFRA\\hibernate.cfg.xml",
+              "RelativeToolTip": "ConsoleApp.INFRA\\hibernate.cfg.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-28T02:18:45.856Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.INFRA\\docker-compose.yml",
+              "RelativeDocumentMoniker": "ConsoleApp.INFRA\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.INFRA\\docker-compose.yml",
+              "RelativeToolTip": "ConsoleApp.INFRA\\docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-06-28T02:18:31.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.INFRA\\Config\\appsettings.json",
               "RelativeDocumentMoniker": "ConsoleApp.INFRA\\Config\\appsettings.json",
@@ -59,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\Biblioteca.API\\Program.cs",
               "RelativeDocumentMoniker": "Biblioteca.API\\Program.cs",
@@ -67,12 +105,11 @@
               "RelativeToolTip": "Biblioteca.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T03:05:34.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T03:05:34.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
               "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Entites\\Cliente.cs",
@@ -84,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ValidatorService.cs",
               "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
               "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Services\\ValidatorService.cs",
@@ -96,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ClienteService.cs",
               "DocumentMoniker": "C:\\Users\\lumet\\source\\repos\\BibliotecaAPI\\BibliotecaAPI\\ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
               "RelativeDocumentMoniker": "ConsoleApp.DOMAIN\\Services\\ClienteService.cs",
